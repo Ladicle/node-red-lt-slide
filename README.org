@@ -1,0 +1,23 @@
+* Slide for Node-RED LT festival
+  This repository is slide for [[http://eventdots.jp/event/569762][Node-RED LT festival]]
+  Slide URL is [[http://ladicle.github.io/node-red-lt-slide/][here]]
+
+** Archtecture
+   - dest
+     babel output directory
+   - image
+     images are used in slide
+   - lib
+     librarys about slide builder and browser supports etc..
+   - src
+     slide content
+
+** Usage
+   1. Install npm modules
+   #+BEGIN_SRC shell
+   npm install
+   #+END_SRC
+   2. Rebuild slide
+   #+BEGIN_SRC shell
+   gulp
+   #+END_SRC
